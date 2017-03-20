@@ -1,7 +1,7 @@
-##http://rosalind.info/problems/dna/
+#http://rosalind.info/problems/dna/
 
-##input a string of letters
-given_file = open('/home/steffiemarie/Documents/Python/counting.txt')
+#input a string of letters
+given_file = open('counting.txt')
 
 nucleotides = given_file.read()
 As = 0
@@ -9,7 +9,7 @@ Gs = 0
 Cs = 0
 Ts = 0
 
-##read a letter and if it's the right one then
+#read a letter and up the appropriate count
 for nucleotide in nucleotides:
     if nucleotide == 'A':
         As = As + 1
